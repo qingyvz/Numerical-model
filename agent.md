@@ -12,6 +12,13 @@ Numerical-model/
 └── result/      # 存放各题的分析与解答
 ```
 
-2.C的每一道题都需要要对题目给出的数据进行分析才能进行解答，你分析出来的规律请你一份md文件放在该题对应的路径，如现在处理第一题的数据分析请放在Numerical-model\result\1下命名为data_analysis_1.md
-
+2.C的每一道题都需要要对题目给出的数据进行分析才能进行解答，你只需要分析出规律无需给出任何建议，你分析出来的规律请你一份md文件放在该题对应的路径，如现在处理第一题的数据分析请放在Numerical-model\result\1下命名为data_analysis_1.md，由此产生的所有中间文件都应该在存放在Numerical-model\result\1\tmp，对于数据分析你至少一张图是直接把对应附件给映射成图的图片
 3.目标范围：Numerical-model\CUMCM2026Problems\C题
+
+4.解答时请先结合该题的data_analysis.md,如果没有请中断对话，解答请以一个md文件和一个xlsx文件的形式存放在对应的位置，如：你给出了第一题的解答result1.xlsx以及result_1.md放在Numerical-model\result\1
+
+5.若要在md文件写公式使用格式：
+  - 行内公式：$...$
+  - 独立公式：$$...$$
+
+6.请用中文来写图片，表格等文件里面的文字
