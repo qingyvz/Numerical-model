@@ -1,0 +1,82 @@
+[
+  {
+    "model_version": "q2-causal-two-stage-v1",
+    "forecast_id": "seasonal_7d",
+    "forecast_name": "前7天同一时刻季节朴素预测",
+    "fit_seconds": 0.0,
+    "note": "第d天预测等于d-7天同一时刻实测值，仅使用历史数据",
+    "hyperparameters": {
+      "lag_days": 7
+    },
+    "load": {
+      "mae_kw": 176.79572117223884,
+      "rmse_kw": 244.28661499529923,
+      "bias_kw": 1.9494697043413223
+    },
+    "pv": {
+      "mae_kw": 214.68823137890885,
+      "rmse_kw": 419.9479682302922,
+      "bias_kw": 4.71353383233533
+    },
+    "net_load": {
+      "mae_kw": 327.7708114624917,
+      "rmse_kw": 486.4685254107146,
+      "bias_kw": -2.7640641279940223
+    }
+  },
+  {
+    "model_version": "q2-causal-two-stage-v1",
+    "forecast_id": "ridge_causal",
+    "forecast_name": "扩展窗口Ridge正则化时序预测",
+    "fit_seconds": 0.35166210000170395,
+    "note": "固定正则系数仅由1月顺序验证选取；此后每日只以此前实测值更新充分统计量",
+    "hyperparameters": {
+      "alpha": 0.1,
+      "initial_validation": "2025-01-25至2025-01-31"
+    },
+    "load": {
+      "mae_kw": 166.0224982560124,
+      "rmse_kw": 219.50465931045918,
+      "bias_kw": -3.258730291364254
+    },
+    "pv": {
+      "mae_kw": 161.64271785500014,
+      "rmse_kw": 301.6881322432895,
+      "bias_kw": 19.371951094489113
+    },
+    "net_load": {
+      "mae_kw": 261.81411732209114,
+      "rmse_kw": 371.78579416678843,
+      "bias_kw": -22.630681385853368
+    }
+  },
+  {
+    "model_version": "q2-causal-two-stage-v1",
+    "forecast_id": "hist_gbdt_causal",
+    "forecast_name": "滚动直方图梯度提升树预测",
+    "fit_seconds": 31.99321780000173,
+    "note": "每28天仅用此前最多180天样本重训；1月残差热启动沿用因果Ridge预测",
+    "hyperparameters": {
+      "refit_days": 28,
+      "training_window_days": 180,
+      "max_iter": 70,
+      "max_leaf_nodes": 31,
+      "l2_regularization": 4.0
+    },
+    "load": {
+      "mae_kw": 166.80782218422965,
+      "rmse_kw": 229.3257977338644,
+      "bias_kw": 0.801513341006886
+    },
+    "pv": {
+      "mae_kw": 181.58259831306614,
+      "rmse_kw": 354.8557558630207,
+      "bias_kw": 13.648021748903389
+    },
+    "net_load": {
+      "mae_kw": 290.21774048045353,
+      "rmse_kw": 425.04373845850756,
+      "bias_kw": -12.846508407896488
+    }
+  }
+]

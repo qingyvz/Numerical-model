@@ -1,0 +1,250 @@
+[
+  {
+    "date": "2025-03-20",
+    "purchase_at_specified_intervals_kwh": {
+      "10:00-10:10": 0.0,
+      "12:00-12:10": 753.3363807279741,
+      "14:00-14:10": -0.0,
+      "16:00-16:10": 362.96220141047866,
+      "18:00-18:10": 733.3821863193675,
+      "20:00-20:10": 0.0
+    },
+    "daily_planned_purchase_kwh": 69490.75890990377,
+    "daily_scheduled_cost_yuan": 41742.115787761664,
+    "daily_emergency_purchase_kwh": 412.7124407682975,
+    "daily_emergency_cost_yuan": 1536.1086732282172,
+    "daily_total_cost_yuan": 43278.224460989884,
+    "storage_blocks": [
+      {
+        "interval": "0:00-4:00",
+        "charge_kwh": 4596.038017256727,
+        "discharge_kwh": 430.6601887842762
+      },
+      {
+        "interval": "4:00-8:00",
+        "charge_kwh": 889.0157599339982,
+        "discharge_kwh": 5554.856154073539
+      },
+      {
+        "interval": "8:00-12:00",
+        "charge_kwh": 5351.4211221548285,
+        "discharge_kwh": 2777.3772166666663
+      },
+      {
+        "interval": "12:00-16:00",
+        "charge_kwh": 5646.309655647263,
+        "discharge_kwh": 330.2857983694323
+      },
+      {
+        "interval": "16:00-20:00",
+        "charge_kwh": 204.7649487595903,
+        "discharge_kwh": 5777.218107886506
+      },
+      {
+        "interval": "20:00-24:00",
+        "charge_kwh": 5442.5624720485175,
+        "discharge_kwh": 3054.9932346183236
+      }
+    ],
+    "soc_start_kwh": 6000.0,
+    "soc_end_kwh": 6000.0,
+    "emergency_blocks": [
+      {
+        "interval": "1:00-1:10",
+        "purchase_kwh": 19.737230511242387,
+        "start_slot": 5,
+        "end_slot": 5
+      },
+      {
+        "interval": "5:30-5:40",
+        "purchase_kwh": 5.511838405083701,
+        "start_slot": 32,
+        "end_slot": 32
+      },
+      {
+        "interval": "15:20-16:10",
+        "purchase_kwh": 369.41761961089367,
+        "start_slot": 91,
+        "end_slot": 95
+      },
+      {
+        "interval": "21:50-22:00",
+        "purchase_kwh": 18.045752241077707,
+        "start_slot": 130,
+        "end_slot": 130
+      }
+    ]
+  },
+  {
+    "date": "2025-06-21",
+    "purchase_at_specified_intervals_kwh": {
+      "10:00-10:10": -0.0,
+      "12:00-12:10": -0.0,
+      "14:00-14:10": -0.0,
+      "16:00-16:10": 125.90059557048698,
+      "18:00-18:10": 393.8485851249291,
+      "20:00-20:10": -0.0
+    },
+    "daily_planned_purchase_kwh": 36357.815619848494,
+    "daily_scheduled_cost_yuan": 20972.57944191507,
+    "daily_emergency_purchase_kwh": 0.0,
+    "daily_emergency_cost_yuan": 0.0,
+    "daily_total_cost_yuan": 20972.57944191507,
+    "storage_blocks": [
+      {
+        "interval": "0:00-4:00",
+        "charge_kwh": 188.09836185856358,
+        "discharge_kwh": 621.1690831579979
+      },
+      {
+        "interval": "4:00-8:00",
+        "charge_kwh": 14.1969524271139,
+        "discharge_kwh": 3862.690121413402
+      },
+      {
+        "interval": "8:00-12:00",
+        "charge_kwh": 0.0,
+        "discharge_kwh": 0.0
+      },
+      {
+        "interval": "12:00-16:00",
+        "charge_kwh": 8332.880727831785,
+        "discharge_kwh": 0.0
+      },
+      {
+        "interval": "16:00-20:00",
+        "charge_kwh": 1371.4112432144707,
+        "discharge_kwh": 5374.57991321413
+      },
+      {
+        "interval": "20:00-24:00",
+        "charge_kwh": 5430.209919983042,
+        "discharge_kwh": 2564.3666185195975
+      }
+    ],
+    "soc_start_kwh": 6000.0,
+    "soc_end_kwh": 6000.0,
+    "emergency_blocks": []
+  },
+  {
+    "date": "2025-09-23",
+    "purchase_at_specified_intervals_kwh": {
+      "10:00-10:10": -0.0,
+      "12:00-12:10": 708.5727005265983,
+      "14:00-14:10": -0.0,
+      "16:00-16:10": 360.1530716651457,
+      "18:00-18:10": 815.8471603115966,
+      "20:00-20:10": 0.0
+    },
+    "daily_planned_purchase_kwh": 69799.42889117938,
+    "daily_scheduled_cost_yuan": 42964.3040007494,
+    "daily_emergency_purchase_kwh": 282.5486685773176,
+    "daily_emergency_cost_yuan": 1095.1032721575602,
+    "daily_total_cost_yuan": 44059.40727290696,
+    "storage_blocks": [
+      {
+        "interval": "0:00-4:00",
+        "charge_kwh": 4281.441136376123,
+        "discharge_kwh": 50.96026964131363
+      },
+      {
+        "interval": "4:00-8:00",
+        "charge_kwh": 1215.2912116415398,
+        "discharge_kwh": 6828.166182252993
+      },
+      {
+        "interval": "8:00-12:00",
+        "charge_kwh": 5245.375776131684,
+        "discharge_kwh": 1896.6157166666662
+      },
+      {
+        "interval": "12:00-16:00",
+        "charge_kwh": 5954.552467388507,
+        "discharge_kwh": 428.55291058469186
+      },
+      {
+        "interval": "16:00-20:00",
+        "charge_kwh": 243.7850201924797,
+        "discharge_kwh": 5775.667784160367
+      },
+      {
+        "interval": "20:00-24:00",
+        "charge_kwh": 5357.5592635015655,
+        "discharge_kwh": 3081.4210856318086
+      }
+    ],
+    "soc_start_kwh": 6000.0,
+    "soc_end_kwh": 6000.0,
+    "emergency_blocks": [
+      {
+        "interval": "7:30-7:40",
+        "purchase_kwh": 7.502494562755459,
+        "start_slot": 44,
+        "end_slot": 44
+      },
+      {
+        "interval": "15:00-15:10",
+        "purchase_kwh": 71.80004621223647,
+        "start_slot": 89,
+        "end_slot": 89
+      },
+      {
+        "interval": "16:00-16:20",
+        "purchase_kwh": 203.24612780232567,
+        "start_slot": 95,
+        "end_slot": 96
+      }
+    ]
+  },
+  {
+    "date": "2025-12-21",
+    "purchase_at_specified_intervals_kwh": {
+      "10:00-10:10": -0.0,
+      "12:00-12:10": 950.9928869300976,
+      "14:00-14:10": -0.0,
+      "16:00-16:10": 780.5080890094398,
+      "18:00-18:10": 715.3998869259718,
+      "20:00-20:10": -0.0
+    },
+    "daily_planned_purchase_kwh": 97381.39347755518,
+    "daily_scheduled_cost_yuan": 62715.15191250693,
+    "daily_emergency_purchase_kwh": 0.0,
+    "daily_emergency_cost_yuan": 0.0,
+    "daily_total_cost_yuan": 62715.15191250693,
+    "storage_blocks": [
+      {
+        "interval": "0:00-4:00",
+        "charge_kwh": 3347.8353776925396,
+        "discharge_kwh": 363.50461292245177
+      },
+      {
+        "interval": "4:00-8:00",
+        "charge_kwh": 2238.6362565795307,
+        "discharge_kwh": 1746.974057990562
+      },
+      {
+        "interval": "8:00-12:00",
+        "charge_kwh": 4510.659710089379,
+        "discharge_kwh": 6887.112698355897
+      },
+      {
+        "interval": "12:00-16:00",
+        "charge_kwh": 8430.18974589533,
+        "discharge_kwh": 2237.3766663071024
+      },
+      {
+        "interval": "16:00-20:00",
+        "charge_kwh": 409.4426705716412,
+        "discharge_kwh": 5575.354382630949
+      },
+      {
+        "interval": "20:00-24:00",
+        "charge_kwh": 5409.080525954036,
+        "discharge_kwh": 2909.811454086823
+      }
+    ],
+    "soc_start_kwh": 6000.0,
+    "soc_end_kwh": 6000.0,
+    "emergency_blocks": []
+  }
+]

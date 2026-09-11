@@ -1,0 +1,13 @@
+{
+  "model_version": "q2-causal-two-stage-v1",
+  "selection_rule": "先要求供电中断次数为0，再在严格因果可实施方法中选择实际总购电费最低者",
+  "method_id": "ridge_residual_saa",
+  "method_name": "Ridge残差场景两阶段LP",
+  "total_cost_yuan": 13961324.774916405,
+  "scheduled_cost_yuan": 12907867.964439921,
+  "emergency_cost_yuan": 1053456.8104764838,
+  "emergency_energy_mwh": 336.8697656203281,
+  "perfect_foresight_lower_bound_yuan": 12245046.915277628,
+  "gap_vs_perfect_yuan": 1716277.8596387766,
+  "gap_vs_perfect_pct": 14.01609868474615
+}
