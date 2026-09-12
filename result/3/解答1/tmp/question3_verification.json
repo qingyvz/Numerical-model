@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "solution_days": 334,
+  "checked_intervals": 48096,
+  "minimum_power_balance_margin_kwh": -2.2737367544323206e-13,
+  "minimum_soc_kwh": 1199.9999999999977,
+  "maximum_soc_kwh": 10800.000000000005,
+  "maximum_charge_per_interval_kwh": 833.3333333333333,
+  "maximum_discharge_per_interval_kwh": 833.3333333333333,
+  "simultaneous_charge_discharge_intervals": 0,
+  "maximum_daily_cost_recalculation_difference_yuan": 0.0,
+  "total_emergency_purchase_kwh": 206775.74561782152,
+  "total_adjusted_purchase_kwh": 22127295.887150973,
+  "workbook_sheets": [
+    "计划购电量",
+    "调整购电量",
+    "充放电量",
+    "紧急购电量"
+  ],
+  "workbook_rows": {
+    "计划购电量": 335,
+    "调整购电量": 335,
+    "充放电量": 2005,
+    "紧急购电量": 3999
+  },
+  "summary_days": 334
+}
